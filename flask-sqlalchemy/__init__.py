@@ -18,5 +18,5 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://evans:evans@localhost/developme
 from models import db
 db.init_app(app)
 
-import intro_to_flask.routes
+import flask-sqlalchemy.routes
 
