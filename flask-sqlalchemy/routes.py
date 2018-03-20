@@ -1,4 +1,4 @@
-from intro_to_flask import app
+from flask-sqlalchemy import app
 from flask import Flask, render_template, request, flash, session, url_for, redirect
 from forms import ContactForm, SignupForm, SigninForm
 from flask.ext.mail import Message, Mail

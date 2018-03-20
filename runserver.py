@@ -1,3 +1,3 @@
-from intro_to_flask import app
+from flask-sqlalchemy import app
 
 app.run(host='0.0.0.0', port=5000)
