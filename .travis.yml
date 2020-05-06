@@ -6,6 +6,6 @@ script:
   - pytest test.py
 notifications:
   email: 
-    - fiveholiday55@hotmail.com
-    - onyxtic@gmail.com
+    #- xxx@hotmail.com
+    #- xxx@gmail.com
 
